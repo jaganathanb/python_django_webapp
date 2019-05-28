@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  hello_world:
+    image: hello_world
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8000:8000
